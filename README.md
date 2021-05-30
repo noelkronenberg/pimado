@@ -10,6 +10,12 @@ A minimalist to-do list application that is accessible via the browser and has m
 4. Run *python manage.py runserver*
 5. Open development server URL (e.g., http://127.0.0.1:8000)
 
+## Roadmap
+
+- [x] Markdown file export
+- [ ] Cleaner UI
+- [ ] Markdown file import
+
 ## References
 
 - [Basic to-do list structure](https://youtu.be/ovql0Ui3n_I)
