@@ -1,6 +1,14 @@
 <h1>To Do List</h1>
 
+<!--
 <ul>
     <li>Item A</li>
     <li>Item B</li>
+</ul>
+-->
+
+<ul>
+    {% for todo_item in all_items %}
+    <li> {{ todo_item.content }}</li>
+    {% endfor %}
 </ul>
