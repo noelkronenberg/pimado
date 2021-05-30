@@ -1,5 +1,9 @@
 # To Do List
 
+## Goal
+
+Create a minimalist to do list application that is accessible via the browser and has markdown export.
+
 ## Process
 
 1. Direct your terminal to the right folder 
