@@ -13,7 +13,7 @@ A minimalist to-do list application that is accessible via the browser and has m
 ## Roadmap
 
 - [x] Markdown file export
-- [ ] Cleaner UI
+- [ ] Better UX
 - [ ] Markdown file import
 
 ## References
