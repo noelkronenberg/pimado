@@ -9,9 +9,13 @@ A minimalist to-do list application that is accessible via the browser and has m
 1. Direct your terminal to the downloaded folder 
 2. Run *pipenv shell*
 3. Run *pipenv install django==2.1*
-4. Run *python manage.py runserver*
-5. Open development server URL (+ /todo/) in your browser (e.g., http://127.0.0.1:8000/todo/)
+
+4. Run *pip(3) install markdownify*
+5. Run *pip install django-markdownify*
+
+5. Run *python manage.py runserver*
+6. Open development server URL (+ /todo/) in your browser (e.g., http://127.0.0.1:8000/todo/)
 
 ## References
 
-[Basic structure](https://youtu.be/ovql0Ui3n_I)
+[Basic to-do list structure](https://youtu.be/ovql0Ui3n_I)
