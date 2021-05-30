@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from .models import TodoItem
-from markdownify import markdownify
 import os
 
 def todoView(request):

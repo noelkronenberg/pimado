@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-from markdownify import markdownify
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -40,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'todo',
-    'markdownify',
 ]
 
 MIDDLEWARE = [
