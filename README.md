@@ -8,8 +8,9 @@ A minimalist to-do list application that is accessible via the browser and has m
 
 1. Direct your terminal to the downloaded folder 
 2. Run *pipenv shell*
-3. Run *python manage.py runserver*
-4. Open development server URL (+ /todo/) in your browser (e.g., http://127.0.0.1:8000/todo/)
+3. Run *pipenv install django==2.1*
+4. Run *python manage.py runserver*
+5. Open development server URL (+ /todo/) in your browser (e.g., http://127.0.0.1:8000/todo/)
 
 ## References
 
