@@ -12,5 +12,5 @@ A minimalist to-do list application that is accessible via the browser and has m
 
 ## References
 
-[Basic to-do list structure](https://youtu.be/ovql0Ui3n_I)
-[File download](https://linuxhint.com/download-the-file-in-django/)
+- [Basic to-do list structure](https://youtu.be/ovql0Ui3n_I)
+- [File download](https://linuxhint.com/download-the-file-in-django/)
