@@ -1,8 +1,8 @@
-# To Do List
+# To-Do List
 
 ## Goal
 
-Create a minimalist to do list application that is accessible via the browser and has markdown export.
+Create a minimalist to-do list application that is accessible via the browser and has markdown export.
 
 ## Process
 
