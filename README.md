@@ -4,7 +4,7 @@ A minimalist to-do list application that is accessible via the browser and has m
 
 ## Process
 
-1. Direct your terminal to the downloaded folder (*cd downloads/todo-main*)
+1. Direct your terminal to the downloaded folder (e.g., *cd downloads/todo-main*)
 2. Run *pipenv shell*
 3. If not already installed, run *pipenv install django==2.1*
 4. Run *python manage.py runserver*
