@@ -22,8 +22,16 @@ def deleteTodo(request, todo_id):
 def dashboardView(request):
     context = {}
     all_todo_items = TodoItem.objects.all()
-    all_todo_items = #content of every TodoItem
-    conversion_input = all_todo_items
-    conversion_output = markdownify(conversion_input)
+    all_todo_items_list = []
+    for i in all_todo_items:
+        singular_item = i.content
+        all_todo_items_list.append(singular_item)
+    markdown_list_cache = []
+    for i in all_todo_items_list:
+        item = '- [ ] ' + i
+        markdown_list_cache.append(item)
+    markdown_list = '\n'.join(markdown_list_cache)
+    conversion_input = markdown_list
+    conversion_output = conversion_input
     context['generated_md'] = conversion_output
     return render(request, 'dashboard.html', context)
