@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from .models import TodoItem
 import os
+import mimetypes
+from django.http.response import HttpResponse
 
 def todoView(request):
     all_todo_items = TodoItem.objects.all()
@@ -30,7 +32,16 @@ def dashboardView(request):
         item = '- [ ] ' + i
         markdown_list_cache.append(item)
     markdown_list = '\n'.join(markdown_list_cache)
-    conversion_input = markdown_list
-    conversion_output = conversion_input
-    context['generated_md'] = conversion_output
+    with open('to-do-list.md', 'w') as f:
+        f.write(markdown_list)
     return render(request, 'dashboard.html', context)
+
+def download_file(request):
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    filename = 'to-do-list.md'
+    filepath = BASE_DIR + '/' + filename
+    path = open(filepath, 'r')
+    mime_type, _ = mimetypes.guess_type(filepath)
+    response = HttpResponse(path, content_type=mime_type)
+    response['Content-Disposition'] = "attachment; filename=%s" % filename
+    return response
