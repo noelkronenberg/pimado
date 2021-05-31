@@ -13,7 +13,7 @@ A minimalist and privacy-focused (i.e., local) to-do list application that is ac
 ## Roadmap
 
 - [x] Markdown file export
-- [ ] Better UX
+- [x] Better UX
 - [ ] Markdown file import
 
 ## References

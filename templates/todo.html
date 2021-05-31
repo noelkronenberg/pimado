@@ -37,10 +37,11 @@ body {
 
 .to-do-list {
     background-color: #eee;
-    padding: 20px 20px 10px 40px;
+    padding: 20px 10px 10px 40px;
     border: 1px solid;
     border-color: rgb(218, 218, 218);
     border-radius: 3px;
+    width: 70%;
 }
 
 .input-form {
@@ -49,10 +50,11 @@ body {
 
 .to-do-item {
     margin-bottom: 10px;
+    line-height: 1.4;
 }
 
 .delete-button {
-    margin-left: 10px;
+    margin-right: 10px;
     background-color: #bdbdbd;
     padding: 5px 10px 5px 10px;
     text-decoration: none;
@@ -108,6 +110,10 @@ input {
     font-size: 16px;
 }
 
+.item-content {
+    margin-right: 10px;
+}
+
 @media (max-width : 800px) {
     .container {
         padding-left: 5%;
@@ -138,7 +144,7 @@ input {
 
 <ul class="to-do-list">
     {% for todo_item in all_items %}
-    <li class="to-do-item"> {{ todo_item.content }}
+    <li class="to-do-item"> <span class="item-content"> {{ todo_item.content }} </span>
         <form action="/deleteTodo/{{todo_item.id}}/"
         style="display: inline;"
         method="post">{% csrf_token %}
