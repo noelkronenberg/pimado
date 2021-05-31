@@ -56,13 +56,14 @@ body {
 
 .delete-button {
     margin-right: 10px;
-    background-color: #bdbdbd;
-    padding: 5px 10px 5px 10px;
+    background-color: #b4b4b4;
+    padding: 3px 7px 3px 7px;
     text-decoration: none;
     color: #fff;
     border: 0px;
     border-radius: 3px;
-    cursor: pointer
+    cursor: pointer;
+    font-size: 12px;
 }
 
 .add-button {
@@ -150,7 +151,7 @@ input {
         <form action="/deleteTodo/{{todo_item.id}}/"
         style="display: inline;"
         method="post">{% csrf_token %}
-            <input type="submit" value="Delete" class="delete-button"/>
+            <input type="submit" value="X" class="delete-button"/>
         </form>
     </li>
     {% endfor %}
