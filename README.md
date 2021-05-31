@@ -1,6 +1,6 @@
 # To-Do List
 
-A minimalist to-do list application that is accessible via the browser and has markdown export.
+A minimalist privacy-focused (i.e., local) to-do list application that is accessible via the browser and has markdown export.
 
 ## Process
 
