@@ -19,8 +19,8 @@ body {
 
 .container {
     padding-top: 15%;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 35%;
+    padding-right: 35%;
 }
 
 .header {
@@ -54,6 +54,17 @@ body {
     border-radius: 99px;
 }
 
+p {
+    line-height: 1.4;
+}
+
+@media (max-width : 800px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;   
+    }
+}
+
 </style>
 
 </head>
@@ -62,12 +73,12 @@ body {
 
 <div class="container">
 
-<div class="header">
+<section class="header">
 
 <h1>Pimado</h1>
 <p>A minimalist and privacy-focused (i.e., local) to-do list application that is accessible via the browser and has markdown export. </p>
 
-</div>
+</section>
 
 <section class="main">
 

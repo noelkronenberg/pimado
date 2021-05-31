@@ -4,31 +4,157 @@
 <head>
 
 <title>To-Do List - Pimado</title>
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    background-color: #F9F5F1;
+}
+
+.container {
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.to-do-list {
+    background-color: #eee;
+    padding: 20px 20px 10px 40px;
+    border: 1px solid;
+    border-color: rgb(218, 218, 218);
+    border-radius: 3px;
+}
+
+.input-form {
+    margin-bottom: 10px;
+}
+
+.to-do-item {
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    margin-left: 10px;
+    background-color: #bdbdbd;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+.add-button {
+    margin-left: 10px;
+    background-color: #000;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+.back-button {
+    background-color: #E16259;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 99px;
+}
+
+.back-navigation {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+p {
+    line-height: 1.4;
+}
+
+input {
+    font-family: Helvetica, sans-serif;
+}
+
+.add-field { 
+    border-style: none;
+    background: transparent; 
+    outline: none; 
+    font-family: Helvetica, sans-serif;
+    width: 250px;
+    font-size: 16px;
+}
+
+@media (max-width : 800px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;   
+    }
+}
+
+</style>
 
 </head>
 
 <body>
 
+<div class="container">
+
+<section class="header">
+
 <h1>To-Do List</h1>
 
-<ul>
+</section>
+
+<section class="main">
+
+<form action="/addTodo/" method="post" class="input-form">{% csrf_token %}
+    <input type="text" name="content" placeholder="What do you want to accomplish?" class="add-field"/>
+    <input type="submit" value="Add" class="add-button"/>
+</form>
+
+<ul class="to-do-list">
     {% for todo_item in all_items %}
-    <li> {{ todo_item.content }}
+    <li class="to-do-item"> {{ todo_item.content }}
         <form action="/deleteTodo/{{todo_item.id}}/"
         style="display: inline;"
         method="post">{% csrf_token %}
-            <input type="submit" value="Delete"/>
+            <input type="submit" value="Delete" class="delete-button"/>
         </form>
     </li>
     {% endfor %}
 </ul>
 
-<form action="/addTodo/" method="post">{% csrf_token %}
-    <input type="text" name="content"/>
-    <input type="submit" value="Add"/>
-</form>
+</section>
 
-<a href="/">Back</a>
+<div class="back-navigation">
+<a href="/" class="back-button">Back</a>
+</div>
+
+</section>
 
 </body>
 
