@@ -3,18 +3,89 @@
 
 <head>
 
-<title>Dashboard</title>
+<title>Pimado</title>
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    background-color: #F9F5F1;
+}
+
+.container {
+    padding-top: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.header {
+  padding: 20px;
+  #margin-top: 10%;
+  text-align: center;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row__cell {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.button {
+    background-color: #E16259;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 99px;
+}
+
+</style>
 
 </head>
 
 <body>
 
-<h1>Dashboard</h1>
+<div class="container">
 
-<a href="/todo/">Open To-Do List</a>
+<div class="header">
 
-<a href="/download/" download>Download To-Do List</a>
+<h1>Pimado</h1>
+<p>A minimalist and privacy-focused (i.e., local) to-do list application that is accessible via the browser and has markdown export. </p>
 
+</div>
+
+<section class="main">
+
+<div class="row">
+
+<div class="row__cell">
+<a href="/todo/" class="button">Open</a>
+</div>
+
+<div class="row__cell">
+<a href="/download/" class="button">Download</a>
+</div>
+
+</div>
+
+</section>
+
+</div>
 
 </body>
 
