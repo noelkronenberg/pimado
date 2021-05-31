@@ -10,6 +10,8 @@ A minimalist and privacy-focused (i.e., local) to-do list application that is ac
 4. Run *python manage.py runserver*
 5. Open development server URL (e.g., http://127.0.0.1:8000)
 
+https://user-images.githubusercontent.com/79874249/120189620-de077880-c217-11eb-9e71-4b8613b360c2.mp4
+
 ## Roadmap
 
 - [x] Markdown file export
