@@ -21,6 +21,7 @@ https://user-images.githubusercontent.com/79874249/120189620-de077880-c217-11eb-
 - [x] Markdown file export
 - [x] Better UX
 - [ ] Markdown file import
+- [ ] Variable dashboard text
 
 ## References
 
