@@ -6,9 +6,9 @@ A minimalist and privacy-focused (i.e., local) to-do list application that is ac
 
 *Notice: Due to active development videos might be temporarily outdated*
 
-https://user-images.githubusercontent.com/79874249/120190829-69353e00-c219-11eb-99a2-7175a56c531f.mp4
+https://user-images.githubusercontent.com/79874249/120218723-76aef000-c23a-11eb-99db-e7488d4e4249.mp4
 
-https://user-images.githubusercontent.com/79874249/120191805-aea63b00-c21a-11eb-95de-45253c9a520a.mp4
+https://user-images.githubusercontent.com/79874249/120218739-7b73a400-c23a-11eb-8270-69b8bc1be99b.mp4
 
 ## Process
 
