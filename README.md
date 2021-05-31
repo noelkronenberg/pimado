@@ -2,6 +2,8 @@
 
 A minimalist and privacy-focused (i.e., local) to-do list application that is accessible via the browser and has markdown export.
 
+*Notice: Videos might be temporarily outdated due to active development*
+
 https://user-images.githubusercontent.com/79874249/120190829-69353e00-c219-11eb-99a2-7175a56c531f.mp4
 
 https://user-images.githubusercontent.com/79874249/120191805-aea63b00-c21a-11eb-95de-45253c9a520a.mp4
