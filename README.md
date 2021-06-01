@@ -43,3 +43,4 @@ https://user-images.githubusercontent.com/79874249/120315832-0c9b5700-c2dd-11eb-
 
 - [Basic to-do list structure](https://youtu.be/ovql0Ui3n_I)
 - [File download](https://linuxhint.com/download-the-file-in-django/)
+- [Marcus Aurelius quote](https://youtu.be/AiM9YcE0LT4?t=46)
