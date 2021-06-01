@@ -13,12 +13,12 @@ https://user-images.githubusercontent.com/79874249/120218739-7b73a400-c23a-11eb-
 ### Beginner
 
 1. Download and unzip file  
-2. Open your terminal (on mac: press command + spacebar and type "terminal")
-3. Type the following command and hit enter:
+2. Open your terminal
+4. Paste the following commands and hit enter:
 ```
 cd downloads/pimado-main && pipenv shell
 ```
-4. Type the following command and hit enter:
+4. Paste the following commands and hit enter:
 ```
 pipenv install django==2.1 && python manage.py runserver
 ```
