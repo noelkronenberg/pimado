@@ -18,7 +18,7 @@ pipenv install django==2.1 && python manage.py runserver
 
 For usage after the initial set-up, i.e., after closing the terminal and terminating a session, just refer to step 2 and 3, and adjust the directory navigation according to your structure (i.e., *cd folder/folder/.../pimado-main*). 
 
-The to-do items you create will be stored locally (in the db.sqlite3 file), and are accessible for every succeeding session. If you want to update to a newer version of Pimado, simply replace the database (i.e., the db.sqlite3 file) in the updated version with your current instance.
+The to-do items you create will be stored locally (in the *db.sqlite3* file), and are accessible for every succeeding session. If you want to update to a newer version of Pimado, simply replace the database (i.e., the *db.sqlite3* file) in the updated version with your current instance.
 
 ## Roadmap
 
