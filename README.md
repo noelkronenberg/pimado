@@ -1,12 +1,10 @@
-# To-Do List
+# Pimado
 
 A minimalist and privacy-focused (i.e., local) to-do list application that is accessible via the browser and has markdown export.
 
-*Notice: Due to active development videos might be temporarily outdated*
+https://user-images.githubusercontent.com/79874249/120314448-8a5e6300-c2db-11eb-951b-ff1f17e53ad9.mp4
 
-https://user-images.githubusercontent.com/79874249/120218723-76aef000-c23a-11eb-99db-e7488d4e4249.mp4
-
-https://user-images.githubusercontent.com/79874249/120218739-7b73a400-c23a-11eb-8270-69b8bc1be99b.mp4
+https://user-images.githubusercontent.com/79874249/120314502-9813e880-c2db-11eb-850e-dd29066a473c.mp4
 
 ## Set-up
 
@@ -31,6 +29,8 @@ pipenv install django==2.1 && python manage.py runserver
 3. Install Django 2.1 (*pipenv install django==2.1*)
 4. Start development server (*python manage.py runserver*)
 5. Open development server URL
+
+https://user-images.githubusercontent.com/79874249/120315832-0c9b5700-c2dd-11eb-9e2c-e0c04b2c5b74.mp4
 
 ## Roadmap
 
