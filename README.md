@@ -14,6 +14,10 @@ pipenv install django==2.1 && python manage.py runserver
 ```
 3. Access the application via http://127.0.0.1:8000
 
+## Usage
+
+For usage after the initial set-up, i.e., you closed the terminal and terminated the session, just refer to step 2 and 3, and adjust the directory navigation according to your structure (i.e., *cd folder/folder/.../pimado-main*). The to-do items you create will be stored locally, and are accessible for every succeeding session.
+
 ## Roadmap
 
 - [x] Markdown file export
