@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/79874249/120314502-9813e880-c2db-11eb-
 
 ## Set-up
 
-### Beginner
+### Comprehensive 
 
 1. Download and unzip file  
 2. Open your terminal
@@ -24,9 +24,9 @@ pipenv install django==2.1 && python manage.py runserver
 ```
 5. Open http://127.0.0.1:8000 in your browser
 
-### Regular
+### Short
 
-1. Launch subshell in virtual environment (*pipenv shell*) and install Django 2.1 (*pipenv install django==2.1*)
+1. Launch subshell in virtual environment (*pipenv shell*) and, if not installed, install Django 2.1 (*pipenv install django==2.1*)
 2. Start development server (*python manage.py runserver*) and open development server URL
 
 https://user-images.githubusercontent.com/79874249/120315832-0c9b5700-c2dd-11eb-9e2c-e0c04b2c5b74.mp4
