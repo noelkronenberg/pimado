@@ -14,7 +14,7 @@ pipenv install django==2.1 && python manage.py runserver
 ```
 3. Access the application via http://127.0.0.1:8000
 
-(For a video-based set-up guide refer to [this](https://e.pcloud.link/publink/show?code=kZL8QVZtSg4FWA1egh83oKCCLO0ezJGWNuV) page)
+(For a video-based set-up guide, you may refer to [this](https://e.pcloud.link/publink/show?code=kZL8QVZtSg4FWA1egh83oKCCLO0ezJGWNuV) page)
 
 ## Usage
 
