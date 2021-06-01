@@ -8,15 +8,29 @@ https://user-images.githubusercontent.com/79874249/120218723-76aef000-c23a-11eb-
 
 https://user-images.githubusercontent.com/79874249/120218739-7b73a400-c23a-11eb-8270-69b8bc1be99b.mp4
 
-## Process
+## Set-up
 
-1. Direct your terminal to the downloaded folder (e.g., *cd downloads/pimado-main*)
-2. Run *pipenv shell*
-3. If not already installed, run *pipenv install django==2.1*
-4. Run *python manage.py runserver*
-5. Open development server URL (e.g., http://127.0.0.1:8000)
+### Beginner
 
-https://user-images.githubusercontent.com/79874249/120189620-de077880-c217-11eb-9e71-4b8613b360c2.mp4
+1. Download and unzip file  
+2. Open your terminal (on mac: press command + spacebar and type "terminal")
+3. Type the following command and hit enter:
+```
+cd downloads/pimado-main && pipenv shell
+```
+4. Type the following command and hit enter:
+```
+pipenv install django==2.1 && python manage.py runserver
+```
+5. Open http://127.0.0.1:8000 in your browser
+
+### Regular
+
+1. Direct terminal to the downloaded folder
+2. Launch subshell in virtual environment (*pipenv shell*)
+3. Install Django 2.1 (*pipenv install django==2.1*)
+4. Start development server (*python manage.py runserver*)
+5. Open development server URL
 
 ## Roadmap
 
