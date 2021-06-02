@@ -2,6 +2,12 @@
 
 A minimalist and privacy-focused (i.e., local) to-do list application that is accessible via the browser and has markdown export. [View showcase](https://github.com/noelkronenberg/pimado#showcase) for visual representation.
 
+## Basic Requirements
+
+- Browser
+- Terminal
+- Python 3
+
 ## Set-up
 
 1. Download and unzip file  
