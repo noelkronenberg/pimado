@@ -3,102 +3,45 @@
 
 <head>
 
-<title>Pimado</title>
-{% load staticfiles %}
-<link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+    {% load staticfiles %}
 
-<style>
+    <title>Pimado</title>
 
-* {
-  box-sizing: border-box;
-}
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
 
-body {
-    font-family: Helvetica, sans-serif;
-    margin: 0;
-    background-color: #F9F5F1;
-}
-
-.container {
-    padding-top: 15%;
-    padding-left: 35%;
-    padding-right: 35%;
-}
-
-.header {
-  padding: 20px;
-  #margin-top: 10%;
-  text-align: center;
-}
-
-.main {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.row {
-    display: flex;
-    margin-left: -8px;
-    margin-right: -8px;
-}
-
-.row__cell {
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.button {
-    background-color: #E16259;
-    padding: 10px 15px 10px 15px;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 5px;
-}
-
-p {
-    line-height: 1.5;
-}
-
-@media (max-width : 800px) {
-    .container {
-        padding-left: 5%;
-        padding-right: 5%;   
-    }
-}
-
-</style>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 
 </head>
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-<section class="header">
+        <section class="header">
 
-<h1>Pimado</h1>
-<p>"Objective judgement, now, at this very moment. Unselfish action, now, at this very moment. Willing acceptance - now, at this very moment - of all external events. That's all you need." - Marcus Aurelius </p>
+            <h1>Pimado</h1>
 
-</section>
+            <p>"Objective judgement, now, at this very moment. Unselfish action, now, at this very moment. Willing acceptance - now, at this very moment - of all external events. That's all you need." - Marcus Aurelius </p>
 
-<section class="main">
+        </section>
 
-<div class="row">
+        <section class="main">
 
-<div class="row__cell">
-<a href="/todo/" class="button">Open</a>
-</div>
+            <div class="row">
 
-<div class="row__cell">
-<a href="/download/" class="button">Export</a>
-</div>
+                <div class="row__cell">
+                    <a href="/todo/" class="button">Open</a>
+                </div>
 
-</div>
+                <div class="row__cell">
+                    <a href="/download/" class="button">Export</a>
+                </div>
 
-</section>
+            </div>
 
-</div>
+        </section>
+
+    </div>
 
 </body>
 

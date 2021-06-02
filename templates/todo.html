@@ -3,171 +3,52 @@
 
 <head>
 
-<title>To-Do - Pimado</title>
-{% load staticfiles %}
-<link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+    {% load staticfiles %}
 
-<style>
+    <title>To-Do - Pimado</title>
 
-* {
-    box-sizing: border-box;
-}
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
 
-body {
-    font-family: Helvetica, sans-serif;
-    margin: 0;
-    background-color: #F9F5F1;
-}
-
-.container {
-    padding-top: 5%;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-bottom: 5%;
-}
-
-.header {
-    padding: 20px;
-    text-align: center;
-}
-
-.main {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-}
-
-.to-do-list {
-    background-color: #eee;
-    padding: 20px 10px 10px 40px;
-    border: 1px solid;
-    border-color: rgb(218, 218, 218);
-    border-radius: 5px;
-    width: 70%;
-}
-
-.input-form {
-    margin-bottom: 10px;
-    margin-top: 15px;
-}
-
-.to-do-item {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
-.delete-button {
-    margin-right: 10px;
-    background-color: #b4b4b4;
-    padding: 3px 7px 3px 7px;
-    text-decoration: none;
-    color: #fff;
-    border: 0px;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 12px;
-}
-
-.add-button {
-    margin-left: 7px;
-    background-color: #000;
-    padding: 5px 10px 5px 10px;
-    text-decoration: none;
-    color: #fff;
-    border: 0px;
-    border-radius: 4px;
-    cursor: pointer
-}
-
-.back-button {
-    background-color: #E16259;
-    padding: 10px 15px 10px 15px;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.back-navigation {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-a { 
-    text-decoration: none; 
-}
-
-p {
-    line-height: 1.5;
-}
-
-input {
-    font-family: Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-.add-field { 
-    border-style: none;
-    background: transparent; 
-    outline: none; 
-    font-family: Helvetica, sans-serif;
-    width: 250px;
-    font-size: 16px;
-}
-
-.item-content {
-    margin-right: 5px;
-}
-
-@media (max-width : 800px) {
-    .container {
-        padding-left: 5%;
-        padding-right: 5%;   
-    }
-}
-
-</style>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 
 </head>
 
 <body>
 
-<div class="container">
+    <div class="to-do-container">
 
-<section class="header">
+        <section class="header">
 
-<h1>To-Do</h1>
+         <h1>To-Do</h1>
 
-</section>
+        </section>
 
-<section class="main">
+        <section class="to-do-main">
 
-<form action="/addTodo/" method="post" class="input-form">{% csrf_token %}
-    <input type="text" name="content" placeholder="What do you want to accomplish?" class="add-field"/>
-    <input type="submit" value="Add" class="add-button"/>
-</form>
+            <form action="/addTodo/" method="post" class="input-form">{% csrf_token %}
+                <input type="text" name="content" placeholder="What do you want to accomplish?" class="add-field"/>
+                <input type="submit" value="Add" class="add-button"/>
+            </form>
 
-<ul class="to-do-list">
-    {% for todo_item in all_items %}
-    <li class="to-do-item"> <span class="item-content"> {{ todo_item.content }} </span>
-        <form action="/deleteTodo/{{todo_item.id}}/"
-        style="display: inline;"
-        method="post">{% csrf_token %}
-            <input type="submit" value="X" class="delete-button"/>
-        </form>
-    </li>
-    {% endfor %}
-</ul>
+            <ul class="to-do-list">
+                {% for todo_item in all_items %}
+                <li class="to-do-item"> <span class="item-content"> {{ todo_item.content }} </span>
+                    <form action="/deleteTodo/{{todo_item.id}}/"
+                    style="display: inline;"
+                    method="post">{% csrf_token %}
+                        <input type="submit" value="X" class="delete-button"/>
+                    </form>
+                </li>
+                {% endfor %}
+            </ul>
 
-</section>
+        </section>
 
-<div class="back-navigation">
-<a href="/" class="back-button">Back</a>
-</div>
+        <div class="back-navigation">
+            <a href="/" class="button">Back</a>
+        </div>
 
-</section>
+    </div>
 
 </body>
 
