@@ -23,9 +23,9 @@ To-do items you create will be stored locally, and are accessible for every succ
 
 - [x] Markdown file export
 - [x] Better UX
+- [x] Easier set-up
 - [ ] Markdown file import
 - [ ] Variable dashboard text
-- [ ] Easier set-up
 
 ## References
 
