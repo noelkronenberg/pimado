@@ -10,7 +10,7 @@ A minimalist and privacy-focused (i.e., local) to-do list application that is ac
 ```
 brew install python3
 ```
-- pip3 (comes with homebrew)
+- pip3 (comes with homebrew and new Python installations)
 - pipenv
 ```
 pip3 install pipenv
