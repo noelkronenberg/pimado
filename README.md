@@ -6,7 +6,16 @@ A minimalist and privacy-focused (i.e., local) to-do list application that is ac
 
 - Browser
 - Terminal
-- Python 3
+- Python 3 
+  On Mac you may install via [homebrew](https://brew.sh/)
+  ```
+  brew install python3
+  ```
+- pip3 (comes with homebrew)
+- pipenv
+  ```
+  pip3 install pipenv
+  ```
 
 ## Set-up
 
