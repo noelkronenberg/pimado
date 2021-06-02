@@ -28,8 +28,6 @@ pipenv install django==2.1 && python manage.py runserver
 ```
 3. Access the application via http://127.0.0.1:8000
 
-(For a video-based set-up guide, you may refer to [this](https://e.pcloud.link/publink/show?code=kZL8QVZtSg4FWA1egh83oKCCLO0ezJGWNuV) page)
-
 ## Usage
 
 For usage after the initial set-up, i.e., after closing the terminal and terminating a session, just refer to step 2 and 3, and adjust the directory navigation according to your structure (i.e., *cd folder/folder/.../pimado-main*). 
