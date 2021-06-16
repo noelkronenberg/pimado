@@ -51,7 +51,7 @@ If you are new to Python and/ or CS in general, refer to the [Initial Usage](htt
 ### Initial Usage
 
 1. Open your terminal (hit command + space bar and search for `Terminal`)
-2. Paste the following command and hit enter:
+2. Paste the following command, hit enter, and follow the prompts:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
