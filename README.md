@@ -10,7 +10,7 @@ A minimalist and privacy-focused (i.e., local) to-do list application that is ac
 - Python 3 (e.g., via [Homebrew](https://brew.sh/))
 - pip3 (should come with Homebrew)
 
-## Set-up
+## Initial Set-up
 
 ```
 git clone https://github.com/noelkronenberg/pimado
@@ -20,7 +20,7 @@ python pimado.py
 
 ## Usage
 
-To-do items you create will be stored locally, and are accessible for every succeeding session. If you want to update to a newer version of Pimado, simply replace the database (i.e., the *db.sqlite3* file) in the updated version with your current instance.
+After running `pimado.py`, you can access the application via http://127.0.0.1:8000/. To-do items you create will be stored locally, and are accessible for every succeeding session. If you want to update to a newer version of Pimado, simply replace the database (i.e., the *db.sqlite3* file) in the updated version with your current instance.
 
 ## Roadmap
 
