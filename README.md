@@ -10,7 +10,7 @@ A minimalist and privacy-focused (i.e., local) to-do list application that is ac
 - Python 3 (e.g., via [Homebrew](https://brew.sh/))
 - pip3 (should come with Homebrew)
 
-## Initial Set-up
+## Set-up
 
 ```
 git clone https://github.com/noelkronenberg/pimado
