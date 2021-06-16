@@ -46,7 +46,7 @@ https://user-images.githubusercontent.com/79874249/120314502-9813e880-c2db-11eb-
 
 ## Beginner
 
-If you are new to Python and/ or CS in general, refer to the [Set-up](https://github.com/noelkronenberg/pimado#set-up) for the initial installation. For use after the first, just refer to the [Usage](https://github.com/noelkronenberg/pimado#usage).
+If you are new to Python and/ or CS in general, refer to the [Set-up](https://github.com/noelkronenberg/pimado#set-up-1) for the initial installation. For use after the first, just refer to the [Usage](https://github.com/noelkronenberg/pimado#usage-1).
 
 ### Set-up 
 
