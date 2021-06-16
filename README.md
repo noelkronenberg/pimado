@@ -55,7 +55,7 @@ If you are new to Python and/ or CS in general, refer to the [Initial Usage](htt
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-3. Paste the following command and hit enter:
+3. Paste the following commands and hit enter:
 ```
 git clone https://github.com/noelkronenberg/pimado
 cd pimado
@@ -66,7 +66,7 @@ python pimado.py
 ### Normal Usage
 
 1. Open your terminal (hit command + space bar and search for `Terminal`)
-2. Paste the following command and hit enter:
+2. Paste the following commands and hit enter:
 ```
 cd pimado
 python pimado.py
