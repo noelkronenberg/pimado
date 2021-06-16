@@ -7,14 +7,16 @@ A minimalist and privacy-focused (i.e., local) to-do list application that is ac
 - macOS
 - Browser
 - Terminal
-- Python 3 ([Homebrew](https://brew.sh/))
+- Python 3 (e.g., via [Homebrew](https://brew.sh/))
 - pip3 (should come with Homebrew)
 
 ## Set-up
 
-1. Download and unzip file  
-2. Run `pimado.py`
-3. Access the application via http://127.0.0.1:8000
+```
+git clone https://github.com/noelkronenberg/pimado
+cd pimado
+python pimado.py
+```
 
 ## Usage
 
