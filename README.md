@@ -46,9 +46,9 @@ https://user-images.githubusercontent.com/79874249/120314502-9813e880-c2db-11eb-
 
 ## Beginner
 
-If you are new to Python and/ or CS in general, refer to the [Set-up](https://github.com/noelkronenberg/pimado#set-up-1) for the initial installation. For use after the first, just refer to the [Usage](https://github.com/noelkronenberg/pimado#usage-1).
+If you are new to Python and/ or CS in general, refer to the [Initial Usage](https://github.com/noelkronenberg/pimado#initial-usage) section for first-time use. For use after the first, just refer to the [Normal Usage](https://github.com/noelkronenberg/pimado#normal-usage) section.
 
-### Set-up 
+### Initial Usage
 
 1. Open your terminal (hit command + space bar and search for `Terminal`)
 2. Paste the following command and hit enter:
@@ -63,7 +63,7 @@ python pimado.py
 ```
 4. Open http://127.0.0.1:8000/ in your browser
 
-### Usage
+### Normal Usage
 
 1. Open your terminal (hit command + space bar and search for `Terminal`)
 2. Paste the following command and hit enter:
