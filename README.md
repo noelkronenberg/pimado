@@ -1,6 +1,7 @@
 # Pimado
 
-A local browser-based to-do list application with markdown export. [View showcase](https://github.com/noelkronenberg/pimado#showcase) for visual representation.
+A local browser-based to-do list application with markdown export.  
+[View showcase](https://github.com/noelkronenberg/pimado#showcase) for visual representation.
 
 ## Basic Requirements
 
