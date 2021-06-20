@@ -1,7 +1,7 @@
 # Pimado
 
 A local browser-based to-do list application with markdown export.  
-[View showcase](https://github.com/noelkronenberg/pimado#showcase) for visual representation.
+View the [showcase](https://github.com/noelkronenberg/pimado#showcase) for visual representation, or [this](https://github.com/noelkronenberg/pimado/projects/1) project for the roadmap.
 
 ## Basic Requirements
 
@@ -22,14 +22,6 @@ python pimado.py
 ## Usage
 
 After running `pimado.py`, you can access the application via http://127.0.0.1:8000/. To-do items you create will be stored locally, and are accessible for every succeeding session. If you want to update to a newer version of Pimado, simply replace the database (i.e., the *db.sqlite3* file) in the updated version with your current instance.
-
-## Roadmap
-
-- [x] Markdown file export
-- [x] Better UX
-- [x] Easier set-up
-- [ ] Markdown file import
-- [ ] Variable dashboard text
 
 ## References
 
