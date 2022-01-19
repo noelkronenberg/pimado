@@ -37,33 +37,3 @@ After running `pimado.py`, you can access the application via [127.0.0.1:8000](h
 https://user-images.githubusercontent.com/79874249/120314448-8a5e6300-c2db-11eb-951b-ff1f17e53ad9.mp4
 
 https://user-images.githubusercontent.com/79874249/120314502-9813e880-c2db-11eb-850e-dd29066a473c.mp4
-
-## Beginner
-
-If you are new to Python and/ or CS in general, refer to the [Initial Usage](https://github.com/noelkronenberg/pimado#initial-usage) section for first-time use. For use after the first, just refer to the [Normal Usage](https://github.com/noelkronenberg/pimado#normal-usage) section.
-
-### Initial Usage
-
-1. Open your terminal (hit command + space bar and search for `Terminal`)
-2. Paste the following commands, hit enter, and follow the prompts:
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh) && brew install python"
-```
-3. Paste the following commands and hit enter:
-```
-git clone https://github.com/noelkronenberg/pimado
-cd pimado
-python pimado.py
-```
-4. Open http://127.0.0.1:8000/ in your browser
-
-### Normal Usage
-
-1. Open your terminal (hit command + space bar and search for `Terminal`)
-2. Paste the following commands and hit enter:
-```
-cd pimado
-python pimado.py
-```
-3. Open http://127.0.0.1:8000/ in your browser
-
