@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+:root {
+    --main-font: Helvetica, sans-serif;
+    --font-size-1: 48px;
+    --font-size-2: 25.88px;
+    --font-size-3: 16px;
+    --color-1:#E16259;
+    --color-2:#000;
+    --color-3: #F9F5F1;
+    --color-4: #eeeeee;
+    --color-5: #fff;
+}
+  
+html, body {
+    width: 100%;
+    height: 100%;
+    background: var(--color-3);
+    font-family: var(--main-font);
+}
+
+h1, h2, h3, p, a {
+    color: var(--color-2);
+}
+
+p, a {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
