@@ -6,7 +6,6 @@ You may try the beta – or contribute to the development. View the [showcase](h
 
 ## Basic Requirements
 
-- macOS
 - Browser
 - Terminal
 - Python 3 (e.g., via [Homebrew](https://brew.sh/))
