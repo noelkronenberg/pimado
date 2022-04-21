@@ -16,7 +16,7 @@ You may try the beta – or contribute to the development. View the [showcase](h
 ```
 git clone https://github.com/noelkronenberg/pimado
 cd pimado
-python pimado.py
+python3 pimado.py
 ```
 
 ## Usage
